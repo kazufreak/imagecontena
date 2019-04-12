@@ -30,19 +30,23 @@
    
     C.　次に弊社のローカルファイルを閲覧してみます。
     
-        C-1.　閲覧用のファイル構成は下記の構成になります。
-            rootdir
+     C-1.　閲覧用のファイル構成は下記の構成になります。
+        
+          rootdir
                 |---libs
                 |---pointclouds
                 |---filename.html
-            (rootdir名、filenameはファイル毎に名前がついています。)    
-        C-2.　**D:/xampp/htdocs** ディレクトリ内へ閲覧したいフォルダーを配置します。ここでは下記のフォルダー構成としました。
+            (rootdir名、filenameはファイル毎に名前がついています。)  
+         
+     C-2.　**D:/xampp/htdocs** ディレクトリ内へ閲覧したいフォルダーを配置します。ここでは下記のフォルダー構成としました。
+       
             D:/xampp/htdocs/
                         |---point
                                 |---libs
                                 |---pointclouds
                                 |---out.html
-        C-3. **http://localhost/point/out.html** へアクセスすると閲覧が可能です。
+  
+     C-3. **http://localhost/point/out.html** へアクセスすると閲覧が可能です。
         
 4. HPへの追加イメージ
     点群データの閲覧として、[ページのイメージ](http://www.potree.org/)このようなイメージで6ファイル程度をイメージとして配置、クリックすると閲覧できる形を考えています。または **PotreeViewer** が **Youtube** のようにページへ埋め込めればカッコいいかなとも思います。取りあえずは、閲覧用ページを実装して頂ければ嬉しいです。
